@@ -622,7 +622,7 @@ jobs:
       - name: Run gen_requirements_all.py
         run: |
           . venv/bin/activate
-          python -m script.gen_requirements_all validate
+          python3 -m script.gen_requirements_all validate
 
   audit-licenses:
     name: Audit licenses
